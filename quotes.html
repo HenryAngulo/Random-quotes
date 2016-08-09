@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Quote App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="quotes.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="quotes.js"></script>
+    
+  </head>
+
+  <body>
+<div class="container" id="outterbox">
+  <h1 class="text-center sub">Random Quote Machine.</h1>
+  <div id="innerbox">
+  <div id="generator" class="text-center row">
+    
+    <button id="newFunnyQuote" class="col-xs-8 col-xs-offset-2 col-md-3 col-md-offset-2">Kind of Funny Quote!</button>
+    <button id="newThinkerQuote" class="col-xs-8 col-xs-offset-2 col-md-3 col-md-offset-1">Kind of Philosophical Quote!</button>
+    
+  </div>
+  
+  <div class="row">
+    <div id="quote-area-bg" class="col-xs-10 col-xs-offset-1 col-md-9 col-md-offset-1">
+    <div id="quote-area">
+    
+      <p id="Quote" class="text-center h3"></p>
+      <p id="Author" class="text-right h4"></p>
+    
+    </div>
+    </div>
+    
+    <div id="social" class="text-center col-xs-12 col-md-2">
+      
+      <div class="row">
+          
+        <a href="https://twitter.com/home?status=See%20awsomes%20%23quotes%20randomly%20generated%20at%3A%20http%3A//codepen.io/HenryMAC/full/VjwoBB/" id="tweet-quote" target="_blank"><button id="twitter" class="col-xs-8 col-xs-offset-2"><i class="fa fa-twitter" aria-hidden="true"></i></button></a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://codepen.io/HenryMAC/full/VjwoBB/" id="facebook-quote" target="_blank"><button id="facebook" class="col-xs-8 col-xs-offset-2"><i class="fa fa-facebook" aria-hidden="true"></i></button></a>
+        <a href="https://www.tumblr.com/widgets/share/tool?posttype=text&tags=quotes,freecodecamp&title=Wanna%20see%20some%20awesome%20quotes?&content=Visit%3A%20http%3A//codepen.io/HenryMAC/full/VjwoBB/%20to%20some%20randomly%20generated%20funny%20and%20philosophical%20quotes!" id="tumblr-quote" target="_blank"><button id="tumblr"class="col-xs-8 col-xs-offset-2"><i class="fa fa-tumblr" aria-hidden="true"></i></button></a>
+        
+      </div>
+      
+    </div>
+    
+  </div>
+  
+  </div>
+  <p class="text-center sub">Coded by <a id="footerLink" href="https://www.freecodecamp.com/henryangulo" target="_blank">Henry Angulo.</a></p>
+  <p class="text-center sub">About the project: <a id="footerLink" href="https://www.freecodecamp.com/challenges/build-a-random-quote-machine" target="_blank">requiriments</a>-<a id="footerLink" href="https://codepen.io/FreeCodeCamp/full/ONjoLe/" target="_blank">model.</a></p>
+</div>
+
+  </body>
+  
+</html>
